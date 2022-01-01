@@ -16,6 +16,7 @@ if per >= 75:
 else:
     print(nm,'is not allow to sit in exam.')
 =============================================================
+# flow control block for percentage of number:
 per = float(input('Enter the percentage: '))
 if per < 25:
     print('D')
@@ -30,6 +31,7 @@ elif per >= 60 and per < 80:
 else:
     print('A+')
 ===============================================
+# WAP to get a 10% of bouns from salary:
 sal = int(input('Enter the net salary: '))
 yr = int(input('Enter the service years: '))
 if yr < 6:
@@ -39,6 +41,7 @@ if yr >= 6 and yr <= 10:
 if yr > 10:
     print('Net bonus amount is: ',(sal*0.1))
 =================================================
+# WAP to get the amount from market price with percentage given below:
 mp = int(input('Enter the marked price: '))
 if mp > 10000:
     b = mp - (mp * 0.2)
@@ -48,6 +51,7 @@ if mp <= 7000:
     b = mp - (mp * 0.1)
 print('Net amount is:',b)
 =================================================
+# check if tringle is equilateral, scalene or isosceles:
 a = int(input('Enetr the 1st side: '))
 b = int(input('Enter the 2nd side: '))
 c = int(input('Enter the 3rd side: '))
@@ -58,6 +62,7 @@ elif a != b and b != c and c != a:
 else:
     print('The triangle is isosceles. ')
 =====================================================
+" WAP using flow control block to enter the operator from user and get the outpur from that one:
 a = float(input('Enter the first number: '))
 b = float(input('Enter the second number: '))
 c = input('Enter any operator: ')
@@ -77,6 +82,7 @@ if c == '**':
     z = a ** b
 print('Value is: ',z)
 =======================================================
+# WAP to get the wages of the workers:
 a = int(input('Enter the age: '))
 b = input('Enter the gender: ')
 c = int(input('Enter the number of days: '))
@@ -103,6 +109,7 @@ a2 = a1 + s[x]
 a3 = a2 + s[len(s) - 1]
 print('first middle & last character of str is: ',a3)
 =========================================================
+# WAP to get the option of the diffrent meals with avilable money:
 m = int(input('Enter the available money: '))
 t = input('Type of pizza: ')
 if m >= 199:
@@ -113,6 +120,7 @@ if m >= 199:
 else:
     print('Go and eat vada pav')
     ===================================
+# different techniques to get the mobile number separately:
 s = 'my contact number is : 7741856322'
 # print(s.split()[-1])
 # print(s.split(':')[-1])
@@ -122,6 +130,7 @@ for i in s:
         if i.isdigit() == True:
                 print(i,end='')
 ==========================================
+# get the numeric value separate:
 s = 'kjdi3ksndjk5kjsndf88knfn 9fjfn76'
 a = 0
 for i in s:
@@ -129,12 +138,13 @@ for i in s:
                 a += int(i)
 print('Sum of number is:', a)
 ==================================
-
+# to get the even numbers:
 e = [12, 3, 45, 67, 44, 30]
 for i in e:
     if i % 2 == 0:
         print(i)
 ====================================
+# get sum of the number  from entered list:
 a = 0
 s = eval(input('Enetr the list: '))
 for i in s:
@@ -146,7 +156,7 @@ while n > 0:
     print(n)
     n -= 1
     =======================
-
+# to get number of occurances from the list:
 n = eval(input('Enter the list of four number: '))
 a = 0
 count = 0
@@ -155,6 +165,7 @@ while count < 4:
     count += 1
 print('Addition of given number',n,'is',a)
 =============================================
+
 for i in range(10):
 
     if i <= 6:
@@ -169,6 +180,7 @@ for i in range(10):
     else:
         print(i)
 =====================================
+
 # s = [1, 2, 3, 4]
 for i in range(1,6):
     print(i**2)
