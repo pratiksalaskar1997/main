@@ -8,6 +8,7 @@ for i in s.split():
     else:
         print('cold is not present')
 ========================================================
+# WAP to get present and absent eligibility:
 nm = input('Enter student name: ')
 w = int(input('Enter total working days: '))
 a = int(input('Enter total absent days: '))
