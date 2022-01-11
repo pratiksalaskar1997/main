@@ -1,5 +1,5 @@
 #List Comprehension to Iterate through a String
-'''
+
 str1 = 'pratiksalaskar'
 print([i.split() for i in str1])
 
@@ -21,4 +21,3 @@ for i in range(len(a[0])):
         l.append(a[j][i])
     t.append(l)
 print(t)
-'''
