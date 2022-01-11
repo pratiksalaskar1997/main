@@ -1,4 +1,4 @@
-'''
+
 #check whether cold is present or not:
 s = 'today its very cold'
 
@@ -320,6 +320,5 @@ s = lambda x, y: x == y
 k = s(1, 11)
 print('is numbers are equal: ',k)
 
-'''
 
 
