@@ -1,4 +1,11 @@
+#List Comprehension to Iterate through a String
 
+str1 = 'pratiksalaskar'
+print([i.split() for i in str1])
+
+print([i for i in range(0, 101) if i % 2 == 0])
+print([i**2 for i in range(0, 101)])
+print([i for i in range(0, 101) if (i % 2)/i ==
 
 
 print([x for x in range(2, 20) if all(x % y != 0 for y in range(2, x))])
