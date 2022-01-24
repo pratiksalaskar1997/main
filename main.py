@@ -1,12 +1,5 @@
 
-#check whether cold is present or not:
-s = 'today its very cold'
 
-for i in s.split():
-    if i == 'cold':
-        print('cold is present')
-    else:
-        print('cold is not present')
 ========================================================
 # WAP to get present and absent eligibility:
 nm = input('Enter student name: ')
