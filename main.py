@@ -1,4 +1,4 @@
-#check whether cold is present or not:
+#check whether cold is present or not :
 s = 'today its very cold'
 
 for i in s.split():
