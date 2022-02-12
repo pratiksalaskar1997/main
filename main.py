@@ -1,3 +1,4 @@
+
 #check whether cold is present or not :
 s = 'today its very cold'
 
